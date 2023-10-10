@@ -1,0 +1,9 @@
+<p>home works! jeff</p>
+<hr>
+<input type="text"  placeholder="ingresaAlgo" (input)="filter($event)">
+<ul *ngFor="let weatherForecast of weatherForecasts">
+<li>
+
+  <app-weather-forecast-list [weatherForecast]="weatherForecast"/>
+</li>
+</ul>

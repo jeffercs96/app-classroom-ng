@@ -1,0 +1,4 @@
+<p>{{weatherForecast.date}}</p>
+<p>{{weatherForecast.summary}}</p>
+<p [ngClass]="{'down-cero': weatherForecast.temperatureC <= 0}">{{weatherForecast.temperatureC}}</p>
+<p>{{weatherForecast.temperatureF}}</p>
